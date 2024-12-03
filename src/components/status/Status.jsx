@@ -8,6 +8,7 @@ const Status = () => {
   useEffect(() => {
     Aos.init({ duration: 1000 });
   });
+
   return (
     <section className="status">
       <div className="status__container wrapper">
@@ -19,12 +20,12 @@ const Status = () => {
             that users can easily transfer funds to their accounts without the
             need for complex processes or manual interactions.
           </p>
+          <a href="" className="btn know-more-btn">
+            KNOW MORE
+          </a>
         </div>
         <div className="status__right">
           <img src={StatusImg} alt="status" />
-          <a href="" className="btn">
-            KNOW MORE
-          </a>
         </div>
       </div>
     </section>

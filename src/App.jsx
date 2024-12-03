@@ -4,6 +4,8 @@ import Companies from "./components/companies/Companies.jsx";
 import Pricing from "./components/pricing/Pricing.jsx";
 import Earnings from "./components/earnings/Earnings.jsx";
 import Status from "./components/status/Status.jsx";
+import Subscribe from "./components/subscribe/Subscribe.jsx";
+import Footer from "./components/footer/Footer.jsx";
 function App() {
   return (
     <>
@@ -13,6 +15,8 @@ function App() {
       <Pricing />
       <Earnings />
       <Status />
+      <Subscribe />
+      <Footer />
     </>
   );
 }
