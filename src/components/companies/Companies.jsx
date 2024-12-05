@@ -1,5 +1,5 @@
 import "./Companies.scss";
-import { companyInfo } from "../../data";
+import { companyInfo } from "../../Data";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
